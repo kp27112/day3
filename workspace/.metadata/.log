@@ -1,0 +1,53 @@
+!SESSION 2015-07-06 12:05:16.444 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 4 77 2015-07-06 12:11:37.820
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-07-06 12:11:37.820
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-07-06 12:11:37.820
+!MESSAGE /home/student/Academy/task/day3/workspace overlaps the workspace location: /home/student/Academy/task/day3/workspace
+
+!ENTRY org.eclipse.core.resources 4 77 2015-07-06 12:12:34.837
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-07-06 12:12:34.837
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-07-06 12:12:34.837
+!MESSAGE /home/student/Academy/task/day3/workspace overlaps the workspace location: /home/student/Academy/task/day3/workspace
+
+!ENTRY org.eclipse.core.resources 4 77 2015-07-06 12:13:35.386
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-07-06 12:13:35.386
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-07-06 12:13:35.386
+!MESSAGE /home/student/Academy/task/day3/workspace overlaps the workspace location: /home/student/Academy/task/day3/workspace
+
+!ENTRY org.eclipse.core.resources 4 77 2015-07-06 13:03:22.538
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-07-06 13:03:22.539
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-07-06 13:03:22.539
+!MESSAGE /home/student/Academy/task/day3/workspace overlaps the workspace location: /home/student/Academy/task/day3/workspace
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-07-06 13:04:02.348
+!MESSAGE Indexed 'task_1' (0 sources, 0 headers) in 0.01 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.core.resources 4 77 2015-07-06 13:11:47.463
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2015-07-06 13:11:47.463
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2015-07-06 13:11:47.464
+!MESSAGE /home/student/Academy/task/day3/workspace/task_1 overlaps the location of another project: 'task_1'
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-07-06 13:12:21.683
+!MESSAGE Indexed 'taks_1' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-07-06 13:12:43.856
+!MESSAGE Indexed 'task_1' (1 sources, 0 headers) in 0.02 sec: 5 declarations; 9 references; 3 unresolved inclusions; 0 syntax errors; 1 unresolved names (6.67%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-07-06 13:26:09.176
+!MESSAGE Indexed 'task_1' (1 sources, 16 headers) in 1.05 sec: 1,803 declarations; 893 references; 39 unresolved inclusions; 665 syntax errors; 389 unresolved names (12.61%)
