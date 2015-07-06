@@ -13,13 +13,15 @@ static void set_name(struct person* self, const char* p_name)
 			if (self->pd->name)
 				free(self);
 			if (p_name) {
-				self->pd->name = (char*) malloc((strlen(p_name)) * sizeof(char));
+				self->pd->name = (char*) malloc((strlen(p_name))+1 * sizeof(char));
 				strcpy(self->pd->name, p_name);
 			} else {
 				self->pd->name = 0;
 			}
 		} else {
-			self->pd->name = (char*) malloc((strlen(p_name)) * sizeof(char));
+
+            self->pd = (struct person_data*) malloc(sizeof(struct person_data));
+			self->pd->name = (char*) malloc((strlen(p_name)+1) * sizeof(char));
 			strcpy(self->pd->name, p_name);
 		}
 	}
@@ -40,10 +42,10 @@ struct person* create(const char* p_name)
 
 	if (p_name) {
 		result->pd = (struct person_data*) malloc(sizeof(struct person_data));
-		result->pd->name = (char*) malloc((strlen(p_name)) * sizeof(char));
+		result->pd->name = (char*) malloc((strlen(p_name)+1) * sizeof(char));
 		strcpy(result->pd->name, p_name);
 	}
-
+    result->pd = 0;
 	return result;
 }
 
@@ -51,6 +53,7 @@ void destroy(struct person* p_person)
 {
 	if (p_person) {
 		if (p_person->pd) {
+            free(person->pd)
 			if (p_person->pd->name)
 				free(p_person->pd->name);
 		}
