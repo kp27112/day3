@@ -22,7 +22,7 @@ void* ping(void* a)
 	printf("PONG\n");
 	pthread_mutex_unlock(&mtx1);
 
-	pthread_cond_signal(&c2);
+	//pthread_cond_signal(&c2);
 
 
 	return 0;
@@ -37,7 +37,7 @@ void* pong(void* a)
 	printf("PING\n");
 	pthread_mutex_unlock(&mtx2);
 
-	pthread_cond_signal(&c1);
+	//pthread_cond_signal(&c1);
 
 
 
@@ -60,11 +60,11 @@ int main(int c, char** v)
 	//pthread_mutex_lock(&mtx2);
 
 	//pthread_mutex_unlock(&mtx2);
-	while(j<c)
+	while(j>c)
 	{
 	pthread_cond_signal(&c2);
 	pthread_join(t_id2,0);
-	++j;
+	j++;
 	}
 
 
